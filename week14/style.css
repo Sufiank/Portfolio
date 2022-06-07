@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 10, 87);
+  }
+  h1{
+      color:white;
+      text-align: center;
+      margin:auto
+      padding: 50px 0px 10px 150px;
+  }
+  
+  td {
+      display: table-cell;
+      vertical-align: inherit;
+      border: 1px solid rgb(13, 163, 26)
+  }
+  
+  table {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: lightgreen;
+      width: 600px;
+  }
+  
+  ul{ 
+      display: inline-block; 
+      text-align: left; 
+      margin-top: -15px
+  }
+  
+  p{
+      padding-top: 10px;
+      text-align: left;
+      margin-left: 5px;
+      margin-top: 15px
+  }
+  .cap{
+      color:white;
+      text-align: center;
+  }
+  .picture{
+      height:200px;
+      width:200px;
+      padding:10px;
+      border-width: 3px;
+      border: 3px solid blue;
+      margin:auto;
+  }
+  
